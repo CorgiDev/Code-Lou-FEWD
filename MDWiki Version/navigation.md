@@ -44,4 +44,6 @@
   * [User Experience](./projectRequirements/uxSyllabusProject.md)
   * [Tableau](./projectRequirements/tableauProject.md)
 
+[Zoom](./zoom/zoom.md)
+
 [FAQ](./faq.md)

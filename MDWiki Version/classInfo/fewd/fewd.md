@@ -16,6 +16,17 @@ Don't hesitate to reference these sections from time to time when you need a ref
 ## Syllabus
 A link to the syllabus can be found in the **[Syllabus section](https://github.com/CodeLouisville/Student-Resources/wiki/Code-Louisville-Basics)** of the Code Louisville [Student Resources wiki](https://github.com/CodeLouisville/Student-Resources/wiki).
 
+## Tech Event Requirements
+Must attend a **minimum** of 2 tech events. Due to COVID, these events can be virtual. 
+A link to submit a form after each event can be found in the class syllabus.
+
+## Attendance Requirements
+Class attendance every week is highly encouraged. 
+- **3 or more** abscences will result in removal from the program.
+- You may have the option to switch nights to avoid an abscence, but you need to clear this ahead of time to ensure your attendance is able to be properly recorded.
+### Zoom Name
+In Zoom, it is important that your name is set to something clear and recognizable. This is important for ensuring your attendance can be properly recorded, and it is important for if you join a Zoom meeting for professional reasons later on. It is recommended that you set it to your First and Last name.
+
 ## Project Requirements
 Project requirements can be found on the **[Project Requirements](https://github.com/CodeLouisville/Student-Resources/wiki/Project-Requirements)** page of the Code Louisville [Student Resources Wiki](https://github.com/CodeLouisville/Student-Resources/wiki). Projects are due by noon of the last Friday of the session.
 - **May 2020 Session** = Noon (EST),Friday, July 31st
