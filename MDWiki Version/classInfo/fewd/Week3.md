@@ -1,15 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#Treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#Treehouse-courses-due-by-next-class)
-- [Responsive Web Design](#Responsive-Web-Design)
-   - [Mobile First Approach](#Mobile-First-Approach)
-   - [Accessibility Aspect](#Accessibility-Aspect)
-- [Using Web Developer Tools](#Using-Web-Developer-Tools)
-   - [To open the Developer Tools](#To-open-the-Developer-Tools)
-- [More resources](#More-resources)
-   - [Chrome Developer Tools](#Chrome-Developer-Tools)
-   - [Responsive Web Design (RWD) and Media Queries](#responsive-web-design-rwd-and-media-queries)
-   - [CSS Flexbox](#CSS-Flexbox)
+# Week 3 - Debugging and Responsive Layouts
 
 ## Treehouse courses due this week
 - [Debugging CSS with Chrome DevTools](https://teamtreehouse.com/library/debugging-css-with-chrome-devtools)

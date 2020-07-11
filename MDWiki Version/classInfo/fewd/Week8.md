@@ -1,8 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#treehouse-courses-due-by-next-class)
-- [Optional Treehouse Courses](#optional-treehouse-courses)
-- [Additional Recommended Courses](#additional-recommended-courses)
+# Week 8 - Accessibility and Optimization
 
 ## Treehouse courses due this week
 - [Web Accessibility Compliance](https://teamtreehouse.com/library/web-accessibility-compliance)

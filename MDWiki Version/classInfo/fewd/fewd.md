@@ -19,3 +19,14 @@ A link to the syllabus can be found in the **[Syllabus section](https://github.c
 ## Project Requirements
 Project requirements can be found on the **[Project Requirements](https://github.com/CodeLouisville/Student-Resources/wiki/Project-Requirements)** page of the Code Louisville [Student Resources Wiki](https://github.com/CodeLouisville/Student-Resources/wiki). Projects are due by noon of the last Friday of the session.
 - **May 2020 Session** = Noon (EST),Friday, July 31st
+
+## Weekly Links
+- [Week 1](week1.md)
+- [Week 2](week2.md)
+- [Week 3](week3.md)
+- [Week 4](week4.md)
+- [Week 5](week5.md)
+- [Week 6](week6.md)
+- [Week 7](week7.md)
+- [Week 8](week8.md)
+- [Week 9-12](week9-12.md)

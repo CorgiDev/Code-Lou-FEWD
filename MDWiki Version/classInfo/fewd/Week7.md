@@ -1,7 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#treehouse-courses-due-by-next-class)
-- [CSS Selector Resources](#css-selector-resources)
+# Week 7 - CSS Selectors
 
 ## Treehouse courses due this week
 - [CSS Selectors](https://teamtreehouse.com/library/css-selectors)

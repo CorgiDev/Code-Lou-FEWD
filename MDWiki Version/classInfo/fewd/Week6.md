@@ -1,9 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#treehouse-courses-due-by-next-class)
-- [JavaScript Arrays](#javascript-arrays)
-- [JavaScript Loops](#javascript-loops)
-- [JavaScript Objects](#javascript-objects)
+# Week 6 - JavaScript Loops, Arrays, and Objects
 
 ## Treehouse courses due this week
 - [JavaScript Loops, Arrays, and Objects](https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)

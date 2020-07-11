@@ -1,9 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#treehouse-courses-due-by-next-class)
-- [Forms related resources](#forms-related-resources)
-- [JavaScript Variables, Input, and Output](#javascript-variables-input-and-output)
-- [JavaScript Numbers](#javascript-numbers)
+# Week 4 - Introduction to Forms and JavaScript
 
 ## Treehouse courses due this week
 - [HTML Forms](https://teamtreehouse.com/library/html-forms)

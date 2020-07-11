@@ -1,7 +1,4 @@
-## Table of Contents
-- [Treehouse courses due this week](#treehouse-courses-due-this-week)
-- [Treehouse courses due by next class](#treehouse-courses-due-by-next-class)
-- [JavaScript Functions Resources](#javascript-functions-resources)
+# Week 5 - JavaScript Functions
 
 ## Treehouse courses due this week
 - [JavaScript Functions](https://teamtreehouse.com/library/javascript-functions)

@@ -1,3 +1,5 @@
+# Week 2 - Getting Started with Git
+
 ## Treehouse courses due this week
 - [Introduction to Git](https://teamtreehouse.com/library/introduction-to-git)
 - [GitHub Basics](https://teamtreehouse.com/library/github-basics)
@@ -39,17 +41,17 @@ Alternatively, you can press **ctrl + shift + \`**. That mark is a backtick mark
 #### Multiple Terminal Types
 The main thing to remember in VS Code, is that it is not purely a Bash terminal the way Git for Windows is. It can be a PowerShell terminal, Command Prompt, Bash, and other terminal types. To confirm which kind it is currently, you can check the drop-down beside the new terminal window, shown in the screenshot below:
 
-![VS Code Terminal with Terminal type highlighted](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/vscode-terminal1.png?raw=true)
+![VS Code Terminal with Terminal type highlighted](./fewdImages/vscode-terminal1.png)
 
 To switch to a different kind of terminal, you will need to:
 1. Click the terminal selection drop-down menu.
 2. Select the **Select default shell** option.
    
-   ![VS Code Terminal with Terminal type field](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/vscode-terminal2.png?raw=true)
+   ![VS Code Terminal with Terminal type field](./fewdImages/vscode-terminal2.png)
 
 3. A menu will appear at the top of the VS Code window with a list of terminal types to choose from. Select the kind of terminal you need, in this case we need the select **Git Bash**.
    
-   ![VS Code Terminal with Terminal type selection menu](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/vscode-terminal3.png?raw=true)
+   ![VS Code Terminal with Terminal type selection menu](./fewdImages/vscode-terminal3.png)
 
 4. Go back down to the Terminal and click the **New Terminal** button, indicated by a plus symbol ( + ).
 5. You will then see the terminal update to display a terminal matching the type you selected. 
@@ -58,14 +60,14 @@ To switch to a different kind of terminal, you will need to:
    3. **To fully close** a particular terminal, you will need to make sure the drop-down displays the terminal you wish to close.
    4. Then click the **Kill terminal** button indicated by the trash can icon. All terminals will be terminated/closed when you fully close VS Code.
    
-   ![VS Code Terminal with Terminal list with multiple terminals listed and trash can icon highlighted](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/vscode-terminal4.png?raw=true)
+   ![VS Code Terminal with Terminal list with multiple terminals listed and trash can icon highlighted](./fewdImages/vscode-terminal4.png)
 
 ## Create your first GitHub Repo
 1. Sign in to your GitHub account at www.github.com.
 2. There will be a plus symbol in the upper, right-hand corner. Click it and select *New repository*.
 3. The next window will be a form where you can set up your new repo.
 
-   ![Create repo form on GitHub](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/CreateRepoForm.PNG?raw=true)
+   ![Create repo form on GitHub](./fewdImages/CreateRepoForm.PNG)
 
    1. **Repository name**: Type a name for your repo. 
       1. You can change this later, but it can cause problems if you change it and then try to push to the repo with a folder linked originally to the old name.
@@ -77,7 +79,7 @@ To switch to a different kind of terminal, you will need to:
       3. You can add one later very easily.
 4. Click **Create repository**. You now have your GitHub repo. The page for your GitHub repo will look something like this: 
    
-   ![GitHub Repo page](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/RepoPage.PNG?raw=true)
+   ![GitHub Repo page](./fewdImages/RepoPage.PNG)
 
 ## Set up your folder as a repo
 If your repo already has files in it then you can just pull your repo and not do this step. However, it is still good to know how to do this.
@@ -85,15 +87,15 @@ If your repo already has files in it then you can just pull your repo and not do
 1. Navigate to your folder in a terminal window. In this example, I am going to use the folder we created previously on the desktop.
    1. **Make sure you are inside the folder that you want to put your files inside as shown in the screenshot below. Otherwise you can end up adding way more than you mean to.**
    
-   ![Terminal displaying folder location](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/GitBashFolderLocation.png?raw=true)
+   ![Terminal displaying folder location](./fewdImages/GitBashFolderLocation.png)
 
 2. Once you have confirmed that you are inside the appropriate folder, type `git init`.
    1. If you look inside the folder, your previously empty folder will now contain a little folder called **.git**. It is a hidden folder so you may need to turn on the option to view hidden items to see it.
    
-   ![Repo folder with git folder](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/folder-with-git-folder.PNG?raw=true)
+   ![Repo folder with git folder](./fewdImages/folder-with-git-folder.PNG)
 
 3. Now you can type `git status`, and you should get something similar to the screenshot below. 
-![git status with file not added](https://github.com/CorgiDev/Code-Lou-FEWD/blob/master/wikiImages/gitstatus1.PNG?raw=true). 
+![git status with file not added](https://github.com/CorgiDev/Code-Lou-FEWD/blob/master/wikiImages/gitstatus1.PNG). 
 
 4. The **index.html** file currently displays as an **Untracked file** because we have to tell the repo settings to track it as part of the repo.
 
@@ -102,14 +104,14 @@ If your repo already has files in it then you can just pull your repo and not do
    1. If the filename contains spaces, put quotes("") around the file name.
    2. It is highly not recommended, but you can TECHNICALLY use `git add .` to stage all the contents in the folder. However, you can end up staging your whole C drive as part of your repo, which is why it is very important to make sure you are in the correct folder in your terminal before running commands.
 2. Do `git status` again, and you will now see your **index.html** file listed as a *tracked* file.
-![git status with file added](https://github.com/CorgiDev/Code-Lou-FEWD/blob/master/wikiImages/gitstatusfileadded.png?raw=true). 
+![git status with file added](https://github.com/CorgiDev/Code-Lou-FEWD/blob/master/wikiImages/gitstatusfileadded.png). 
 
 ## Your first commit
 Commits are very important. They act as save points you can roll back to if you need to. They can save you if you make a bad mistake and need to revert back to a point where you knew things were good.
 
 They are especially important as you get into more complex projects, are working with others, or if you need to do a dreaded *cherry picking* of commits. You have the option of using the `-m` argument to add a message to your commit. Doing so it option, but leaving good commit messages will make you shine more to your colleagues.
 
-![git commit](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/gitcommit.PNG?raw=true)
+![git commit](./fewdImages/gitcommit.PNG)
 
 1. . To add a commit, we need to use `git comit -m "<message>"` while we are in the repo folder in the terminal, and press enter.
    1. The portion in the quotes after `-m` can be whatever you want it to be, but should be a brief summary of what is changed. Preferably no more than 1 to 2 sentences in length.
@@ -132,11 +134,11 @@ When you create a folder on your desktop, and want to upload it to a remote repo
    3. Click the **Clone or download** button.
    4. Click the **clipboard** icon or manually highlight and copy the url provided.
    
-   ![git repo url](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/github-repo-url.PNG?raw=true)
+   ![git repo url](./fewdImages/github-repo-url.PNG)
 
 5. Back in the terminal window that is displaying your repo folder, you will need to use the `git remote add origin *<GitHubURL>*` as shown in the screenshot below.
    
-   ![git add remote origin](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/git-remote-add.PNG?raw=true)
+   ![git add remote origin](./fewdImages/git-remote-add.PNG)
 
 6. There are a couple of commands you can use to confirm you successfully added a remote.
    1. Run the `git remote` command again with no additional arguments afterwards. This will list `origin` if successful.
@@ -150,20 +152,20 @@ Now it is finally time to add the files you worked on to your repo. This is gene
 
 1. Back in the terminal window that is displaying your repo folder, run `git status` again just to verify that all the files in your repo folder is added/committed.
    
-   ![git status with file added](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/gitstatusfileadded.png?raw=true)
+   ![git status with file added](./fewdImages/gitstatusfileadded.png)
 
 2. As long as your changes are added, you can then use the `git push <remote> <branch>` command as shown in the screenshot below. 
    1. Your `remote` will be the name you gave when you associated your local repo with your remote repo.
    2. By default, your main branch is often known as your `master` branch.
    
-   ![git push](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/git-push.png?raw=true)
+   ![git push](./fewdImages/git-push.png)
 
    3. Congrats!!! You now have a repo with files in. You can go to the GitHub page for your repo to see that you file is now uploaded. 
       1. You can also click on the **1 commit** link to view the commit we previously made.
    
-      ![git repo with files](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/GitHubRepo-WithFiles.png?raw=true)
+      ![git repo with files](./fewdImages/GitHubRepo-WithFiles.png)
       
-      ![git commits on GitHub](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/GitCommitsInGitHub.png?raw=true)
+      ![git commits on GitHub](./fewdImages/GitCommitsInGitHub.png)
 
 ## VS Code Shortcuts
 You survived all of that. Now we are going to show you some shortcuts while adding a ReadMe file.
@@ -208,7 +210,7 @@ VS Code gives you multiple ways to identify untracked and unsaved files.
 
 You can see a side-by-side comparison in the screenshot below.
 
-![Unsaved and Untracked files in VS Code](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/staged_and_unstaged.png?raw=true)
+![Unsaved and Untracked files in VS Code](./fewdImages/staged_and_unstaged.png)
 
 Saving the files can be done with the usual **ctrl + s**, or **File** and **Save**. Now how do you stage/commit the changes?
 
@@ -220,7 +222,7 @@ Saving the files can be done with the usual **ctrl + s**, or **File** and **Save
    3. The first one will commit all the changes listed. The second one will only commit the changes to the single file.
 3. Upon staging a change, it will disappear from the **Changes** list, and be added to a **Staged Changes** list so you can track what you have / have not staged.
 
-![Stage all changes or Stage single change in VS Code](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/StagingCommiting.png?raw=true)
+![Stage all changes or Stage single change in VS Code](./fewdImages/StagingCommiting.png)
 
 #### Committing Changes
 1. **To commit your staged changes,** you will first want to type a message in the **Message** field above the **Staged Changes** list.
@@ -238,7 +240,7 @@ Saving the files can be done with the usual **ctrl + s**, or **File** and **Save
 3. Upon confirming the commit, all committed changes should disappear from the **Changes** list.
 4. Next you can worry about pushing your changes to your **Remote** repo.
 
-![Empty Changes list in VS Code](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/empty_commit_list.png?raw=true)
+![Empty Changes list in VS Code](./fewdImages/empty_commit_list.png)
 
 ### Pushing your changes in VS Code
 Now we finally get to psuh our changes to our remote repo! The Git integration with VS Code makes this step extremely easy. However, remember that by knowing terminal commands, you can more reasily resolve issues that occur when pushing and pulling to/from a Remote repo.
@@ -248,13 +250,13 @@ Now we finally get to psuh our changes to our remote repo! The Git integration w
 3. Select the **Push** option.
    1. You may get a message that says *This branch 'master' has no upstream branch. Would you like to publish this branch?*, press **OK**.
 
-![Push changes in VS Code](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/PushinVSCode.png?raw=true)
+![Push changes in VS Code](./fewdImages/PushinVSCode.png)
 
 4. You most likely won't see any messages in VS Code if everything was successful. However, you can navigate back to your Repo page and see the added files and the Commits listed.
 
-![GitHub Repo with ReadMe listed](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/GitHub_AfterReadMe.png?raw=true)
+![GitHub Repo with ReadMe listed](./fewdImages/GitHub_AfterReadMe.png)
 
-![GitHub Repo with updated commit list](https://github.com/CorgiDev/May-2020-FEWD-Tuesday/raw/master/wikiImages/GitHubCommitsAfterReadMe.png?raw=true)
+![GitHub Repo with updated commit list](./fewdImages/GitHubCommitsAfterReadMe.png)
 
 ## Additional Resources
 - [Basic Git Commands Cheat Sheet by Atlassian](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)

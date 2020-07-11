@@ -1,14 +1,4 @@
-## Table of Contents
-- [Optional Treehouse Courses](#optional-treehouse-courses)
-- [Additional Recommended Courses](#additional-recommended-courses)
-- [What to expect after Week 8](#what-to-expect-after-week-8)
-- [Project Requirements](#project-requirements)
-   - [Due Dates](#due-dates)
-- [After graduation](#after-graduation)
-- [Additional Resources](#Additional-Resources)
-   - [Free Images and Icons](#Free-Images-and-Icons)
-   - [Documentation](#documentation)
-   - [Tutorials](#tutorials)
+# Week 9 Onward
 
 ## Optional Treehouse Courses
 - [HTML Tables](https://teamtreehouse.com/library/html-tables)
